@@ -1,0 +1,12 @@
+CRITICAL - 2023-08-31 01:52:38 --> Too few arguments to function App\Controllers\Halo::index(), 0 passed in /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Halo->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halo))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 01:55:02 --> Too few arguments to function App\Controllers\Halo::index(), 0 passed in /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Halo->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halo))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
