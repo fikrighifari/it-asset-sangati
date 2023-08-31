@@ -34,6 +34,9 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('halo', 'Halo::index');
 
+//routes to barang
+$routes->get('barang','Barang::index');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
