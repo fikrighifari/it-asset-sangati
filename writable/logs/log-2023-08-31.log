@@ -10,3 +10,221 @@ CRITICAL - 2023-08-31 01:55:02 --> Too few arguments to function App\Controllers
 #2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #4 {main}
+CRITICAL - 2023-08-31 02:45:11 --> Too few arguments to function App\Controllers\Barang::index(), 0 passed in /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 02:47:46 --> Too few arguments to function App\Controllers\Barang::index(), 0 passed in /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 02:47:58 --> Too few arguments to function App\Controllers\Barang::index(), 0 passed in /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 02:48:00 --> Too few arguments to function App\Controllers\Barang::index(), 0 passed in /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:05:00 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:05:01 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:05:58 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:06:47 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:07:24 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:19:41 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:19:50 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:19:51 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:20:22 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:21:14 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:21:15 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:22:04 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-31 03:22:05 --> Class 'App\Models\Barang_model' not found
+#0 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-08-31 03:53:12 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2023-08-31 03:53:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/it-asset/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/it-asset/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/it-asset/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/it-asset/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Applications/MAMP/htdocs/it-asset/app/Models/Barang_model.php(10): CodeIgniter\BaseModel->findAll()
+#5 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(12): App\Models\Barang_model->getBarang()
+#6 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#7 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-31 03:56:02 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2023-08-31 03:56:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/it-asset/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/it-asset/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/it-asset/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/it-asset/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Applications/MAMP/htdocs/it-asset/app/Models/Barang_model.php(10): CodeIgniter\BaseModel->findAll()
+#5 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(12): App\Models\Barang_model->getBarang()
+#6 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#7 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-31 03:56:19 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2023-08-31 03:56:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/it-asset/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/it-asset/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/it-asset/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/it-asset/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Applications/MAMP/htdocs/it-asset/app/Models/Barang_model.php(10): CodeIgniter\BaseModel->findAll()
+#5 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(12): App\Models\Barang_model->getBarang()
+#6 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#7 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-31 03:56:32 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2023-08-31 03:56:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/it-asset/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/it-asset/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/it-asset/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/it-asset/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Applications/MAMP/htdocs/it-asset/app/Models/Barang_model.php(10): CodeIgniter\BaseModel->findAll()
+#5 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(12): App\Models\Barang_model->getBarang()
+#6 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#7 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-31 04:02:38 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2023-08-31 04:02:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/it-asset/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/it-asset/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/it-asset/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/it-asset/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Applications/MAMP/htdocs/it-asset/app/Models/Barang_model.php(10): CodeIgniter\BaseModel->findAll()
+#5 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(12): App\Models\Barang_model->getBarang()
+#6 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#7 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-31 04:04:01 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-08-31 04:04:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /Applications/MAMP/htdocs/it-asset/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/it-asset/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/it-asset/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/it-asset/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Applications/MAMP/htdocs/it-asset/app/Models/Barang_model.php(10): CodeIgniter\BaseModel->findAll()
+#5 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(12): App\Models\Barang_model->getBarang()
+#6 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#7 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-31 04:04:35 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-08-31 04:04:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /Applications/MAMP/htdocs/it-asset/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/it-asset/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/it-asset/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/it-asset/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Applications/MAMP/htdocs/it-asset/app/Models/Barang_model.php(10): CodeIgniter\BaseModel->findAll()
+#5 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(12): App\Models\Barang_model->getBarang()
+#6 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#7 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 04:27:57 --> Invalid file: header_view.php
+#0 /Applications/MAMP/htdocs/it-asset/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header_view.php')
+#1 /Applications/MAMP/htdocs/it-asset/system/Common.php(1092): CodeIgniter\View\View->render('header_view', Array, true)
+#2 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(13): view('header_view', Array)
+#3 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#4 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-31 04:59:58 --> Invalid file: header_view.php
+#0 /Applications/MAMP/htdocs/it-asset/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header_view.php')
+#1 /Applications/MAMP/htdocs/it-asset/system/Common.php(1092): CodeIgniter\View\View->render('header_view', Array, true)
+#2 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(13): view('header_view', Array)
+#3 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->index()
+#4 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
