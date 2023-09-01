@@ -36,6 +36,13 @@ $routes->get('halo', 'Halo::index');
 
 //routes to barang
 $routes->get('barang','Barang::index');
+$routes->get('barang/tambah','Barang::tambah');
+$routes->get('barang/edit/(:any)','Barang::edit/$1');
+
+//CRUD Process
+$routes->post('barang/add', 'Barang::add');
+$routes->post('barang/update', 'Barang::update');
+$routes->post('barang/hapus/(:any)', 'Barang::hapus/$1');
 
 /*
  * --------------------------------------------------------------------
