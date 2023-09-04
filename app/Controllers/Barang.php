@@ -74,4 +74,21 @@ class Barang extends BaseController
         window.location = "' . base_url('barang') . '  ";
         </script>';
     }
+
+    public function delete($id)
+    {
+        $model = new Barang_model;
+        $getBarang = $model->getBarang($id)->getRow();
+        // dd($id);
+        if (isset($getBarang)) {
+            $model->deleteBarang($id);
+            echo '<script>alert("Hapus data barang berhasil");
+            window.location= "' . base_url('barang') . ' "
+             </script>';
+        } else {
+            echo '<script>alert("Hapus gagal, ID Barang ' . $id . ' Tidak ditemukan");
+            window.location= "' . base_url('barang') . ' "
+             </script>';
+        }
+    }
 }
