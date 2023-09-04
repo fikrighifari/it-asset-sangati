@@ -41,4 +41,21 @@ class Barang extends BaseController
                 window.location="' . base_url('barang') . '"
             </script>';
     }
+
+    public function edit($id)
+    {
+        $model = new Barang_model;
+        $getBarang = $model->getBarang($id)->getRow();
+        if (isset($getBarang)) {
+            $data['barang'] = $getBarang;
+            $data['title'] = 'Edit ' . $getBarang->nama_barang;
+            echo view('header_view', $data);
+            echo view('edit_view', $data);
+            echo view('footer_view', $data);
+        } else {
+            echo '<script>alert("ID Barang ' . $id . ' Tidak ditemukan");
+            window.location= "' . base_url('barang') . ' "
+             </script>';
+        }
+    }
 }
