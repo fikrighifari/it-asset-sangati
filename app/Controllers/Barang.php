@@ -4,8 +4,8 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\Barang_model;
-
-class Barang extends Controller
+use App\Controllers\BaseController;
+class Barang extends BaseController
 {
     public function index()
     {
@@ -21,7 +21,23 @@ class Barang extends Controller
     {
         $data['title'] = 'Tambah Data Barang';
         echo view('barang/header_view', $data);
-        echo view('barang/barang_view', $data);
+        echo view('barang/tambah_view', $data);
         echo view('barang/footer_view', $data);
+    }
+
+
+    public function add()
+    {
+        $request = \Config\Services::request();
+        $model = new Barang_model;
+        // dd($request->getPost());
+        $data = array(
+            'nama_barang' => $this->request->getPost(),
+        );
+        $model->saveBarang($data);
+        echo '<script>
+                alert("Sukses Tambah Data Barang");
+                window.location="' . base_url('barang') . '"
+            </script>';
     }
 }

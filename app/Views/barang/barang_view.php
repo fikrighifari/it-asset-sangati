@@ -1,5 +1,5 @@
 <div class="container pt-5">
-    <a href="<?= base_url('barang/tambah');?>" class="btn btn-success mb-2">Tambah Data</a>
+    <a href="<?= site_url('barang/tambah');?>" class="btn btn-success mb-2">Tambah Data</a>
     <div class="card">
         <div class="card-header bg-info text-white">
             <h4 class="card-title">Data Barang</h4>
