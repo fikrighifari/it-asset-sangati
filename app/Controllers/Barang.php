@@ -49,9 +49,9 @@ class Barang extends BaseController
         if (isset($getBarang)) {
             $data['barang'] = $getBarang;
             $data['title'] = 'Edit ' . $getBarang->nama_barang;
-            echo view('header_view', $data);
-            echo view('edit_view', $data);
-            echo view('footer_view', $data);
+            echo view('barang/header_view', $data);
+            echo view('barang/edit_view', $data);
+            echo view('barang/footer_view', $data);
         } else {
             echo '<script>alert("ID Barang ' . $id . ' Tidak ditemukan");
             window.location= "' . base_url('barang') . ' "

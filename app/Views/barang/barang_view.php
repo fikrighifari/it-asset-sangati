@@ -26,7 +26,7 @@
                                 <td>Rp<?= number_format($isi['harga_beli']);?>,-</td>
                                 <td>Rp<?= number_format($isi['harga_jual']);?>,-</td>
                                 <td>
-                                    <a href="<?= site_url('barang/edit/'.$isi['id_barang']);?>" 
+                                    <a href="<?= base_url('barang/edit/'.$isi['id_barang']);?>" 
                                     class="btn btn-success">
                                     Edit</a>
                                     <a href="<?= base_url('barang/hapus/'.$isi['id_barang']);?>" 
