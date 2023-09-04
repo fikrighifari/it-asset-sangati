@@ -5,6 +5,7 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\Barang_model;
 use App\Controllers\BaseController;
+
 class Barang extends BaseController
 {
     public function index()
@@ -25,14 +26,14 @@ class Barang extends BaseController
         echo view('barang/footer_view', $data);
     }
 
-
     public function add()
     {
-        $request = \Config\Services::request();
         $model = new Barang_model;
-        // dd($request->getPost());
         $data = array(
-            'nama_barang' => $this->request->getPost(),
+            'nama_barang' => $this->request->getPost('nama'),
+            'qty'         => $this->request->getPost('qty'),
+            'harga_beli'  => $this->request->getPost('beli'),
+            'harga_jual'  => $this->request->getPost('jual')
         );
         $model->saveBarang($data);
         echo '<script>

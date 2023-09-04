@@ -12,4 +12,9 @@ class Barang_model extends Model {
             return $this->getWhere(['id_barang' => $id]);
         }
     }
+    public function saveBarang($data)
+    {
+        $builder = $this->db->table($this->table);
+        return $builder->insert($data);
+    }
 }
