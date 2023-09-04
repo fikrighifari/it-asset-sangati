@@ -1,18 +1,3 @@
-<!-- <div class="container p-5">
-    <a href="<?= base_url('barang'); ?>" class="btn btn-secondary mb-2"> Kembali </a>
-    <div class="card">
-        <div class="card-header bg-info text-white">
-            <h4>Tambah Data Barang</h4>
-        </div>
-        <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-        </div>
-    </div>
-</div> -->
-
-
-
 <div class="container p-5">
     <a href="<?= base_url('barang'); ?>" class="btn btn-secondary mb-2">Kembali</a>
     <div class="card">

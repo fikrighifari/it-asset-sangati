@@ -58,4 +58,20 @@ class Barang extends BaseController
              </script>';
         }
     }
+
+    public function update()
+    {
+        $model = new Barang_model;
+        $id = $this->request->getPost('id_barang');
+        $data = array(
+            'nama_barang' => $this->request->getPost(('nama')),
+            'qty' => $this->request->getPost(('qty')),
+            'harga_beli' => $this->request->getPost(('beli')),
+            'harga_jual' => $this->request->getPost(('jual')),
+        );
+        $model->editBarang($data, $id);
+        echo '<script>alert("Sukses edit barang.");
+        window.location = "' . base_url('barang') . '  ";
+        </script>';
+    }
 }

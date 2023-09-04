@@ -81,3 +81,57 @@ CRITICAL - 2023-09-03 21:18:50 --> Operand should contain 1 column(s)
 #8 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #9 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #10 {main}
+CRITICAL - 2023-09-03 21:43:53 --> Invalid file: header_view.php
+#0 /Applications/MAMP/htdocs/it-asset/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header_view.php')
+#1 /Applications/MAMP/htdocs/it-asset/system/Common.php(1092): CodeIgniter\View\View->render('header_view', Array, true)
+#2 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(52): view('header_view', Array)
+#3 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->edit('3')
+#4 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-03 21:44:21 --> Invalid file: header_view.php
+#0 /Applications/MAMP/htdocs/it-asset/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header_view.php')
+#1 /Applications/MAMP/htdocs/it-asset/system/Common.php(1092): CodeIgniter\View\View->render('header_view', Array, true)
+#2 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(52): view('header_view', Array)
+#3 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->edit('1')
+#4 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-03 21:45:32 --> Invalid file: header_view.php
+#0 /Applications/MAMP/htdocs/it-asset/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header_view.php')
+#1 /Applications/MAMP/htdocs/it-asset/system/Common.php(1092): CodeIgniter\View\View->render('header_view', Array, true)
+#2 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(52): view('header_view', Array)
+#3 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->edit('1')
+#4 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-03 21:45:32 --> Invalid file: header_view.php
+#0 /Applications/MAMP/htdocs/it-asset/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header_view.php')
+#1 /Applications/MAMP/htdocs/it-asset/system/Common.php(1092): CodeIgniter\View\View->render('header_view', Array, true)
+#2 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(52): view('header_view', Array)
+#3 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->edit('1')
+#4 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-03 21:45:36 --> Invalid file: header_view.php
+#0 /Applications/MAMP/htdocs/it-asset/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header_view.php')
+#1 /Applications/MAMP/htdocs/it-asset/system/Common.php(1092): CodeIgniter\View\View->render('header_view', Array, true)
+#2 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(52): view('header_view', Array)
+#3 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->edit('1')
+#4 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-03 22:04:12 --> Invalid file: header_view.php
+#0 /Applications/MAMP/htdocs/it-asset/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header_view.php')
+#1 /Applications/MAMP/htdocs/it-asset/system/Common.php(1092): CodeIgniter\View\View->render('header_view', Array, true)
+#2 /Applications/MAMP/htdocs/it-asset/app/Controllers/Barang.php(52): view('header_view', Array)
+#3 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(802): App\Controllers\Barang->edit('1')
+#4 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 /Applications/MAMP/htdocs/it-asset/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/it-asset/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
