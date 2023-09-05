@@ -22,11 +22,12 @@ class Barang_model extends Model
         return $builder->insert($data);
     }
 
-    // public function deleteBarang($id)
-    // {
-    //     $builder = $this->db->table($this->table);
-    //     return $builder->delete(['id_barang', $id]);
-    // }
+    public function deleteBarang($id)
+    {
+        $builder = $this->db->table($this->table);
+        $builder->where('id_barang', $id);
+        $builder->delete();
+    }
 
     public function editBarang($data, $id)
     {
@@ -35,10 +36,10 @@ class Barang_model extends Model
         return $builder->update($data);
     }
 
-    public function deleteBarang($id)
-    {
-        $stQuery = "DELETE FROM ".$this->table." ";
-        $stQuery .= "WHERE id_barang = ".$this->db->escapeString($id);
-        $this->db->query($stQuery);
-    }
+    // public function deleteBarang($id)
+    // {
+    //     $stQuery = "DELETE FROM ".$this->table." ";
+    //     $stQuery .= "WHERE id_barang = ".$this->db->escapeString($id);
+    //     $this->db->query($stQuery);
+    // }
 }
